@@ -1,0 +1,24 @@
+require File.dirname(__FILE__) + '/../test_helper'
+
+class AddIsNewToIssueStatusTest < ActiveSupport::TestCase
+  fixtures :issue_statuses
+
+<<<<<<< .mine
+  # Replace this with your real tests.
+  def test_truth
+    ### was the fixture loaded?
+    assert_equal 6,IssueStatus.count
+    
+=======
+  # # Replace this with your real tests.
+  # def test_truth
+  #   assert true
+  #   ### was the fixture loaded?
+  #   assert_equal 6,IssueStatus.count
+  #   # assert false
+  # end
+  def test_multiple_default_issue_statuses
+    assert_equal 2,IssueStatus.default.count
+>>>>>>> .r379
+  end
+end
