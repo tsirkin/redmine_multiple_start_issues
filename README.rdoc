@@ -2,4 +2,4 @@
 
 Redmine plugin that allowes multiple default issue statuses.
 This is of cause a work around - such an option should be configured
-on a per tracker basis.
+on a per tracker basis,but there is no such an option in redmine.
